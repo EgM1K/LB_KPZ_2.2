@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LB_KPZ", "LB_KPZ\LB_KPZ.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LB_KPZ_2", "LB_KPZ_2\LB_KPZ_2.csproj", "{0EE8020C-FB07-42E5-8752-A8CDA40849FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit_Test", "Unit_Test\Unit_Test.csproj", "{2A4BFCDE-7A31-45FD-90D4-A75403CBC4F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EE8020C-FB07-42E5-8752-A8CDA40849FA} = {0EE8020C-FB07-42E5-8752-A8CDA40849FA}
+		{93138B42-2195-41FB-8CA7-F17977169E81} = {93138B42-2195-41FB-8CA7-F17977169E81}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,10 @@ Global
 		{0EE8020C-FB07-42E5-8752-A8CDA40849FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EE8020C-FB07-42E5-8752-A8CDA40849FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EE8020C-FB07-42E5-8752-A8CDA40849FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4BFCDE-7A31-45FD-90D4-A75403CBC4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4BFCDE-7A31-45FD-90D4-A75403CBC4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4BFCDE-7A31-45FD-90D4-A75403CBC4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4BFCDE-7A31-45FD-90D4-A75403CBC4F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
